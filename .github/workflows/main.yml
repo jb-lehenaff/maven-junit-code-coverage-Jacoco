@@ -41,7 +41,7 @@ jobs:
          cc_test_reporter_id: 23a03c22fc336c39d0a1749f8c3f78fb8cbaa874d10d95cf06b150fc0c4b2f76
         with:
           coverageCommand: mvn test
-          coverageLocations: "target/jacoco-report/jacoco.xml:jacoco"
+          coverageLocations: "./target/jacoco-report/jacoco.xml:jacoco"
           debug: true
 
       # - name: Generate Coverage Report
